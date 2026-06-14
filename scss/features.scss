@@ -1,0 +1,18 @@
+.features {
+  padding: 80px $spacing;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card {
+  padding: 25px;
+  border: 1px solid $border;
+  border-radius: $radius;
+  flex: 1;
+}

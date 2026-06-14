@@ -1,0 +1,51 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 80px $spacing;
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 25px;
+  }
+}
+
+.hero-text,
+.hero-image {
+  flex: 1;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.dark-btn {
+  background: $primary;
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+
+.light-btn {
+  background: $secondary;
+  color: $primary;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+}
+
+.hero-small {
+  text-align: center;
+  padding: 80px $spacing;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+}

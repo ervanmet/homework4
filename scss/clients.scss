@@ -1,0 +1,53 @@
+.client-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 50px $spacing;
+}
+
+.client-card {
+  border: 1px solid $border;
+  border-radius: $radius;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+  transition: .3s;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+}
+
+.featured-client {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 80px $spacing;
+}
+
+.featured-image,
+.featured-text {
+  flex: 1;
+}

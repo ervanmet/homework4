@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        display: flex;
+        list-style: none;
+
+        li {
+            margin-left: 20px;
+
+            a {
+                text-decoration: none;
+                color: $text-color;
+            }
+        }
+    }
+}
